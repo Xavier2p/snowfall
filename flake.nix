@@ -20,6 +20,8 @@
           rust = import ./rust.nix {inherit pkgs;};
           java = import ./java.nix {inherit pkgs;};
           cpie = import ./cpie.nix {inherit pkgs;};
+          net = import ./net.nix {inherit pkgs;};
+          cloud = import ./cloud.nix {inherit pkgs;};
         };
       }
     );

@@ -14,9 +14,4 @@ pkgs.mkShell {
     criterion
     gcovr
   ];
-
-  shellHook = ''
-    echo "direnv: env reloaded"
-    echo "Welcome to the PIE shell - C version"
-  '';
 }

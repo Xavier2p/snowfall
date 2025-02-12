@@ -9,8 +9,4 @@ pkgs.mkShell {
     scc
     tokei
   ];
-  shellHook = ''
-    echo "direnv: environment loaded"
-    echo "Welcome to PIE - Java Workshop 2027"
-  '';
 }
