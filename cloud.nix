@@ -6,6 +6,7 @@ pkgs.mkShell {
     packer
     ansible
     kubectl
+    minikube
   ];
 
   shellHooks = ''
