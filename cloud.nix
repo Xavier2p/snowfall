@@ -8,6 +8,7 @@ pkgs.mkShell {
     kubectl
     minikube
     kubernetes-helm
+    k9s
   ];
 
   shellHooks = ''
