@@ -7,6 +7,7 @@ pkgs.mkShell {
     ansible
     kubectl
     minikube
+    helm
   ];
 
   shellHooks = ''
